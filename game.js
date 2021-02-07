@@ -2,10 +2,10 @@ const canvas = document.getElementById("game");
 const gameContext = canvas.getContext("2d");
 
 const gameGround = new Image();
-gameGround.src = "img/game_ground.png";
+gameGround.src = "game_ground.png";
 
 const virusImg = new Image();
-virusImg.src = "img/virus.png";
+virusImg.src = "virus.png";
 
 var box = 32;
 var score = 0;
